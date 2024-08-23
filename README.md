@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Natter
+
+An open source discord alternative.
+
+## Description
+
+Apps like Discord are great, but now, Discord is adding advertisements. This hurts hte usability of the platform and Next Natter is my attempt at designing an effective alternative.
+
+In addition, the second goal of this project is to provide a solution for secure internal communications within companies that:
+
+1. Don't want to spend or don't have the money to spend on Teams or Slack.
+2. Want to or must manage their own data on premises.
+3. Need extendability to provide unique functionality to their organization.
+
+The open source nature of this project is designed to encourage companies and individuals to modify code and contribute functionality to better suit their needs with the goal of those changes being useful for others as well.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- NodeJS v22.3.0+
+- NPM v10.8.1+
+- Latest version of Visual Studio Code or WebStorm
+- Commit signing
+
+### Installation
+
+To get started, clone the repository
+
+```shell
+git clone git@github.com:zachbakerdev/next-natter.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Change the directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+cd next-natter
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run npm install
 
-## Learn More
+```shell
+npm i
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Running
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the development server run
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```shell
+npm run start
+```
 
-## Deploy on Vercel
+To build the production server run
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```shell
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Authors
+
+Zach Baker - [@zachbakerdev](https://github.com/zachbakerdev)
+
+## Contributing
+
+This project is not currently accepting code contributors.
+
+If you still wish to contribute to this project you may donate [here](https://ko-fi.com/zachbakerdev).
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) - see the LICENSE.txt file for the full license text.
