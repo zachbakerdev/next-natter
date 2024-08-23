@@ -12,7 +12,8 @@ let theme = createTheme({
     },
     palette: {
         mode: "dark"
-    }
+    },
+    spacing: 8
 });
 
 theme = responsiveFontSizes(theme);

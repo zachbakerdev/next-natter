@@ -1,12 +1,15 @@
-import {CssBaseline} from "@mui/material";
+import React, {FC} from "react";
+import {Button, Container, CssBaseline, Divider, Typography} from "@mui/material";
 
-export default function Home() {
-  return (
-      <>
+const Page: FC = () => {
+    return <Container sx={{py: 2}}>
         <CssBaseline />
-        <main>
-          <p>Hello World!</p>
-        </main>
-      </>
-  );
+        <Typography variant="h3">Welcome to Next Natter!</Typography>
+        <Typography variant="subtitle1">A Discord Alternative</Typography>
+        <Divider sx={{mb: 2}}/>
+        <Button variant="contained" sx={{marginRight: 1}}>Login</Button>
+        <Button variant="contained">Register</Button>
+    </Container>
 }
+
+export default Page;
