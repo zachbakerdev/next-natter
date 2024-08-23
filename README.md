@@ -48,13 +48,19 @@ npm i
 To run the development server run
 
 ```shell
-npm run start
+npm run dev
 ```
 
 To build the production server run
 
 ```shell
 npm run build
+```
+
+To run the production build run
+
+```shell
+npm run start
 ```
 
 ## Authors
